@@ -25,7 +25,7 @@ int main() {
 // void bubbleSort(int a[], int length) {
 //     int i, j;
 //     // printf("2. Address of the taking array: %x\n", a);
-//     for (i = 0; i < length; i++) {
+//     for (i = 0; i < length - 1; i++) {
 //         for (j = 0; j < length - i - 1; j++) {
 //             if (a[j] > a[j + 1]) {
 //                 int temp = a[j];
@@ -39,7 +39,7 @@ int main() {
 void bubbleSort(int *a, int length) {
     int i, j;
     // printf("3. Address of the taking array: %x\n", a);
-    for (i = 0; i < length; i++) {
+    for (i = 0; i < length - 1; i++) {
         for (j = 0; j < length - i - 1; j++) {
             if (a[j] > a[j + 1]) {
                 int temp = a[j];
