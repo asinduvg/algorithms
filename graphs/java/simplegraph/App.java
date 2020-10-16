@@ -1,5 +1,3 @@
-package graphs.java.simplegraph;
-
 public class App { 
     public static void main(String[] args) {
         Graph myGraph = new Graph(5);

@@ -1,5 +1,3 @@
-package graphs.java.simplegraph;
-
 import java.util.ArrayList;
 
 public class Graph {
