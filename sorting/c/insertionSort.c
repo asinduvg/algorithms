@@ -40,6 +40,7 @@ void insertionSort(int arr[], int length) {
     2) Simple inmplementation
     3) Best when we have continuous inflow of numbers and we want to keep the list sorted
     4) Average case is bad
+    5) Best for already sorted array
 
     Time complexity -> O(n^2)
     Space complexity -> O(1)
