@@ -84,6 +84,7 @@ public class HashTable {
             hashVal %= arraySize;
         }
 
+        // to return hash array
         return hashArray[hashVal];
     }
 
