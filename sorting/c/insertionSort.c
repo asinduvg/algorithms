@@ -20,6 +20,7 @@ int main() {
     return 0;
 }
 
+//algorithm for insertion sort
 void insertionSort(int arr[], int length) {
     int i, j;
 
