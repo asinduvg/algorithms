@@ -1,3 +1,4 @@
+//java stack
 public class Stack {
 
     private int maxSize;
